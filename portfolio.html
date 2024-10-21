@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Personnel Dclic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
+    <script defer src="scripts.js"></script>
+    <script defer src="jquery.js"></script>
+</head>
+<body>
+    <!-- Section d'en-tête -->
+    <header id="home">
+        <nav>
+            <div class="logo">
+                <h1>Mon Portfolio avec Dclic</h1>
+                <img src="Strawberry -6.jpg" alt="DIALLO" class="profile-image">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section class="hero-section" id="home">
+        <div class="hero-text">
+            <h1>Bienvenue, je suis Adama DIALLO</h1>
+            <p>Élève de la première cohorte en développement web.</p>
+            <a href="#contact" class="cta">Cliquez ici</a>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="about-section">
+        <h2>À propos de moi</h2>
+        <p>Je suis une étudiante passionnée par le développement web, avec un intérêt particulier pour la création d'interfaces utilisateur modernes et intuitives. Actuellement en formation, j'apprends à maîtriser les technologies comme HTML, CSS, JavaScript. Mon objectif est de devenir un développeur full-stack et de contribuer à des projets innovants dans le domaine du numérique.</p>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="projects-section">
+        <h2>Mes Projets</h2>
+        <div class="project-grid">
+            <div class="project-item">
+                <h3><a href="projet1.html" target="_blank">Projet 1</a></h3>
+                <p>Description du projet ici.</p>
+            </div>
+            <div class="project-item">
+                <h3><a href="projet2.html" target="_blank">Projet 2</a></h3>
+                <p>Description du projet ici.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="skills-section">
+        <h2>Mes Compétences</h2>
+        <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>Navigation web</li>
+            <li>Animation web</li>
+        </ul>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-section">
+        <h2>Contactez-moi</h2>
+        <form action="#" method="POST">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Adama. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
